@@ -1,0 +1,51 @@
+/* Navbar styles */
+.navbar {
+    background-color: #0fef74;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 30px;
+    color: white;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-style: italic;
+    /* justify-content: space-between; */
+}
+
+.navbar a:hover {
+    background-color: #f44336;
+    color: black;
+}
+
+.navbar .logo {
+    font-size: 20px; 
+    font-weight: bold;
+}
+.logo{
+    background-color: #160605;
+    font-size: xx-small;
+}
+/* Login button style */
+.login-button {
+    float: right;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;  links */
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.login-button:hover {
+    background-color: #100e0e;
+}
+
+
+.navbar a:not(.logo) {
+    margin-right: -5px;
+}

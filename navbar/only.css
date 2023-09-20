@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("basketball.png"); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.navbar {
+    background-color: rgb(255, 145, 0);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logo:hover {
+    background-color: black;
+    color: white;
+}
+
+.element a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.element a:hover {
+    background-color: rgb(138, 43, 226);
+    color: rgb(255, 145, 0);
+}
+
+.login-button {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px; 
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.login-button:hover {
+    background-color: blueviolet;
+    color: rgb(255, 145, 0);
+}
+.banner_text{
+    text-align: center;
+    color: blueviolet;
+    padding-top: 180px;
+
+}
+.banner_text h1{
+    font-size: 130px;
+
+}
+.banner_text p{
+    font-size: 20px;
+    font-style: italic; 
+}
